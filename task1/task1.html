@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Task1</title>
+</head>
+
+<body class="bg-light " style="font-weight: 600;">
+    <div class="container mt-4">
+        <div class="row ">
+            <div class="col-lg-8 col-md-12">
+
+                <h5>Billing Address</h5>
+                <div class="row mb-3">
+                    <div class="col ">
+                        <label for="fname" class="mb-1">First Name</label>
+                        <input type="text" class="form-control" id="fname">
+                    </div>
+                    <div class="col">
+                        <label for="lname" class="mb-1">Last Name</label>
+                        <input type="text" class="form-control" id="lname">
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <label for="username" class="w-100 mb-1">Username</label>
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" id="username">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address <span class="text-secondary">(Optional)</span> </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="you@example.com">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Address 2 <span class="text-secondary">(Optional)</span></label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+
+
+                <div class="row">
+                    <div class="form-group col-5 ">
+                        <label for="inputCountrty">Country</label>
+                        <select id="inputCoubry" class="form-control form-select ">
+                            <option selected> UK </option>
+                            <option>Azerbaycan</option>
+                            <option>Turkiye</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-5">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control form-select text">
+                            <option selected>Baku</option>
+                            <option>Gence</option>
+                            <option>Agsu</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <hr>
+
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Shopping Address is the same as my billing address
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Save this information for next time
+                    </label>
+                </div>
+                <hr>
+                <div class="mb-3">
+                    <h5 style="font-weight: bold;">Payment</h5>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Credit card
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Debit card
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Paypal
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="ncard" class="mb-1">Name on card</label>
+                        <input type="text" class="form-control" id="ncard">
+                        <p style="font-size: 10px;" class="text-secondary">Full name as displayed on card</p>
+                    </div>
+                    <div class="col">
+                        <label for="cnumber" class="mb-1">Credit card number</label>
+                        <input type="number" class="form-control" id="cnumber">
+                    </div>
+
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <label for="exp" class="mb-1">Expirtion</label>
+                        <input type="number" class="form-control" id="exp">
+                    </div>
+                    <div class="col-3">
+                        <label for="cvv" class="mb-1">CVV</label>
+                        <input type="number" class="form-control" id="cvv">
+                    </div>
+                </div>
+                <button class="btn btn-primary  " style="padding: 7px 345px; margin-top: 15px;"
+                    type="button">Button</button>
+            </div>
+            <div class="col-lg-4 col-md-12">
+
+
+                <span style=" font-size: 35px;">Your cart</span> <span style="float: right;border:2px solid rgb(0, 0, 0); border-radius: 50%; height: 30px; width: 30px;text-align: center;background-color: #000000;color: white;margin: 11px;">3</span>
+                <ol class="list-group list-unstyled ">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Product name</div>
+                            Brief description
+                        </div>
+                        <span class="badge text-dark">$12</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Second product</div>
+                            Brief description
+                        </div>
+                        <span class="badge text-dark">$8</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Third item</div>
+                            Brief description
+                        </div>
+                        <span class="badge text-dark">$5</span>
+                    </li>
+                    <li class="text-success list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Promo code</div>
+                            EXAMPLECODE
+                        </div>
+                        <span class="badge text-success ">-$5</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Total (USD)</div>
+                        </div>
+                        <span class="badge text-dark">$20</span>
+                    </li>
+                </ol>
+                <br>
+                <div style="border:2px solid rgb(95, 94, 94);padding: 4px; ">
+                    <input type="text" placeholder="Promo code"><input type="reset" class="bg-secondary"
+                        style=" border:1px solid text-secondary-emphasis; color:whitesmoke;" value="Reedem"></input>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
